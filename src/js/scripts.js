@@ -7,7 +7,6 @@ async function main() {
 
 
 
-
     //code2
     const equation2 = (((2*z) + y) - 5);
 
@@ -18,7 +17,8 @@ async function main() {
     const equation3 = ((y + z) - x);
 
 
-    
-
+    output(`Equation 1: ${equation1}`);
+    output(`Equation 2: ${equation2}`);
+    output(`Equation 3: ${equation3}`);
 
 }
