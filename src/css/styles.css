@@ -1,5 +1,5 @@
 html {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Courier New, 'Trebuchet MS', sans-serif;
     
     --green: #0C0;
     --white: #EEE;
@@ -15,22 +15,6 @@ body, .white-on-black {
     --error: #F00;
     --meta: #32a3ff;
     --debug: #FF0;
-}
-
-.black-on-white {
-    --text: var(--black);
-    --back: var(--white);
-    --error: #b22222;
-    --meta: #00f;
-    --debug: #b8860b;
-}
-
-.green-on-black {
-    --text: var(--green);
-    --back: var(--black);
-    --error: #f00;
-    --meta: #32a3ff;
-    --debug: #ff0;
 }
 
 body, #themes {
