@@ -32,10 +32,7 @@ do {
     //code3
     const equation3 = ((y + z) - x);
 
-
-    output(`Equation 1: ${equation1}`);
-    output(`Equation 2: ${equation2}`);
-    output(`Equation 3: ${equation3}`);
+    output(`The answer is: ${equation1} ${equation2} ${equation3}`)
 }
 while (x);
 }
