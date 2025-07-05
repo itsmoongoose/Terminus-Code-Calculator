@@ -7,6 +7,7 @@ let y = 0;
 let z = 0;
 
 do {
+
     //User Input -- x
     x = await input("What is X: ");
     x = x.trim();
@@ -21,7 +22,6 @@ do {
     z = await input("What is Z: ");
     z = z.trim();
     z = Number(z);
-
 
     //code1
     const equation1 = ((2*x) + 11);
