@@ -1,18 +1,24 @@
 //Function Main
 async function main() {
 
+//Defining Variables
+let x = 0;
+let y = 0;
+let z = 0;
+
+do {
     //User Input -- x
-    let x = await input("What is X: ");
+    x = await input("What is X: ");
     x = x.trim();
     x = Number(x);
 
     //User Input -- y
-    let y = await input("What is Y: ");
+    y = await input("What is Y: ");
     y = y.trim();
     y = Number(y);
 
     //User Input -- z
-    let z = await input("What is Z: ");
+    z = await input("What is Z: ");
     z = z.trim();
     z = Number(z);
 
@@ -30,5 +36,6 @@ async function main() {
     output(`Equation 1: ${equation1}`);
     output(`Equation 2: ${equation2}`);
     output(`Equation 3: ${equation3}`);
-
+}
+while (x);
 }
