@@ -75,11 +75,6 @@ body, #themes {
     border: 3px solid var(--black);
 }
 
-.flash>.editing::after {
- content: "|";
- font-weight: bolder;
-}
-
 #themes {
     border: 3px solid var(--black);
     border-radius: 3px;
