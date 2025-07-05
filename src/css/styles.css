@@ -18,7 +18,7 @@ body, .white-on-black {
 }
 
 body, #themes {
-    background-color: #CCC;
+    background-color: #202020;
 }
 
 #output {
@@ -54,7 +54,7 @@ body, #themes {
 
 .container {
     margin: 0 auto;
-    width: 80%;
+    width: 100%;
     position: relative;
     border: 3px solid var(--black);
 }
