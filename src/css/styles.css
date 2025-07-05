@@ -74,29 +74,3 @@ body, #themes {
     position: relative;
     border: 3px solid var(--black);
 }
-
-#themes {
-    border: 3px solid var(--black);
-    border-radius: 3px;
-    position: absolute;
-    top: 10px;
-    left: 2%;
-    padding: 5px;
-}
-
-.theme {
-    width: 25px;
-    height: 25px;
-    border: 3px solid var(--black);
-    border-radius: 3px;
-    margin: 5px;
-    text-align: center;
-    line-height: 25px;
-    cursor: pointer;
-    background-color: var(--back);
-    color: var(--text);
-}
-
-.theme:hover {
-    border-color: #006e6e;
-}
