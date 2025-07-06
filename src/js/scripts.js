@@ -30,7 +30,10 @@ do {
     const equation2 = (((2*z) + y) - 5);
 
     //code3
-    const equation3 = ((y + z) - x);
+    let equation3 = ((y + z) - x);
+    if (equation3 < 0) {
+        equation3 = equation3 * (-1);
+    }
 
     //Output Answer
     output(`The answer is: ${equation1} ${equation2} ${equation3}`)
