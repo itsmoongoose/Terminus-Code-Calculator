@@ -1,6 +1,6 @@
 ## __Terminus Code Calculator__
 ### __Project Description__
-__*Scope and Functionality*__ - This simple program is meant to calculate the answers to the equations found in the *Black Ops 6 Zombies map, Terminus*.
+__*Scope and Functionality*__ - This simple program is meant to calculate the answers to the equations found in the Black Ops 6 Zombies map, Terminus.
 
 The user will be asked for 3 separate inputs:
 1. The value of variable "x"
