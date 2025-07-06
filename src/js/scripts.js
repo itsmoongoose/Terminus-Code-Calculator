@@ -39,5 +39,5 @@ do {
     output(`The answer is: ${equation1} ${equation2} ${equation3}`)
     output(" ");  //line break -- adds space between first equations and next
 }
-while (x);
+while (x || y || z);
 }
